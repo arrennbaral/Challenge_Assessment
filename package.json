@@ -1,12 +1,9 @@
 {
   "name": "deploy",
-  "hompage":"https://arrennbaral.github.io/challenge_assessment",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "start": "nodemon server.js",
     "client": "cd client && npm start",
     "dev": "concurrently \"cd client && npm start\" \"npm run start\""
