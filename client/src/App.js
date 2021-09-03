@@ -12,7 +12,7 @@ class App extends Component {
      };
   }
   componentDidMount(){
-    fetch('http://localhost:4000/get/fruits')
+    fetch('https://fruitspage.herokuapp.com/get/fruits')
     .then(response=>response.json())
     .then(fruit=>this.setState({fruits:fruit}))
   }
