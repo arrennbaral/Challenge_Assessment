@@ -9,16 +9,14 @@
     "dev": "concurrently \"cd client && npm start\" \"npm run start\""
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arrennbaral/Challenge_Assessment.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arrennbaral/Challenge_Assessment/issues"
+    
   },
-  "homepage": "https://github.com/arrennbaral/Challenge_Assessment#readme",
+
   "dependencies": {
     "axios": "^0.21.1",
     "cors": "^2.8.5",
