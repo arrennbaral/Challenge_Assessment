@@ -7,22 +7,19 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "cd client && npm run start",
-    "server-install":"npm install",
-    "client-install":"cd client && npm install",
-    "install-all":"concurrently \"npm run server-install\" \"npm run client-install\"",
+    "server-install": "npm install",
+    "client-install": "cd client && npm install",
+    "install-all": "concurrently \"npm run server-install\" \"npm run client-install\"",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild":"cd client && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
-  "repository": {
-  },
+  "repository": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    
-  },
-
+  "bugs": {},
   "dependencies": {
+    "@tensorflow/tfjs": "^3.9.0",
     "axios": "^0.21.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
